@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+	    <groupId>org.easyvalueobject</groupId>
+	    <artifactId>easyvalueobject</artifactId>
+	    <version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<artifactId>easyvalueobject-brazil</artifactId>
+
+	<properties>
+		<org.hibernate.version>5.1.5.Final</org.hibernate.version>
+		<myembedded.rdbms.version>1.0.0</myembedded.rdbms.version>
+		<commons.crypto.version>1.0.0</commons.crypto.version>
+		<commons.validator.version>1.6</commons.validator.version>
+		<commons.codec.version>1.10</commons.codec.version>
+	</properties>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>org.easyvalueobject</groupId>
+			<artifactId>easyvalueobject-api</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
+		<!-- Test JPAs APIs -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-entitymanager</artifactId>
+			<version>${org.hibernate.version}</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+</project>

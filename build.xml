@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="easystructure-domain-valueobject">
+	<import>
+		<javaresource classpath="allset-config-ant-1.0.0.jar" name="target/maven/maven-build.xml" />
+		<javaresource classpath="allset-config-ant-1.0.0.jar" name="target/maven/maven-test.xml" />
+		<javaresource classpath="allset-config-ant-1.0.0.jar" name="target/maven/maven-site.xml" />
+		<javaresource classpath="allset-config-ant-1.0.0.jar" name="target/maven/maven-report.xml" />
+		<javaresource classpath="allset-config-ant-1.0.0.jar" name="target/maven/maven-check.xml" />
+	</import>
+</project>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence
+http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd" version="2.1">
+
+	<persistence-unit name="ObjectRepository_1PU" transaction-type="RESOURCE_LOCAL" />
+	<persistence-unit name="ObjectRepository_2PU" transaction-type="RESOURCE_LOCAL" />
+	<persistence-unit name="ObjectRepository_3PU" transaction-type="RESOURCE_LOCAL" />
+	<persistence-unit name="ObjectRepository_4PU" transaction-type="RESOURCE_LOCAL" />
+	<persistence-unit name="ObjectRepository_5PU" transaction-type="RESOURCE_LOCAL" />
+	<persistence-unit name="ObjectRepository_6PU" transaction-type="RESOURCE_LOCAL" />
+	<persistence-unit name="ObjectRepository_7PU" transaction-type="RESOURCE_LOCAL" />
+	<persistence-unit name="ObjectRepository_8PU" transaction-type="RESOURCE_LOCAL" />
+	<persistence-unit name="ObjectRepository_9PU" transaction-type="RESOURCE_LOCAL" />
+	<persistence-unit name="ObjectRepository_10PU" transaction-type="RESOURCE_LOCAL" />
+
+</persistence>

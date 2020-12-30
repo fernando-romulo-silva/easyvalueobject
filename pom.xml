@@ -1,0 +1,100 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<packaging>pom</packaging>
+
+	<groupId>org.easyvalueobject</groupId>
+	<artifactId>easyvalueobject</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<parent>
+		<groupId>org.allset.java</groupId>
+		<artifactId>allset-java</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+
+	<modules>
+		<module>easyvalueobject-api</module>
+		<module>easyvalueobject-brazil</module>
+		<module>easyvalueobject-international</module>
+	</modules>
+
+	<licenses>
+		<license>
+			<name>The Apache Software License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+	<url>https://github.com/fernando-romulo-silva/easyvalueobject</url>
+
+	<scm>
+		<url>https://github.com/fernando-romulo-silva/easyvalueobject</url>
+		<connection>scm:git:https://github.com/fernando-romulo-silva/easyvalueobject.git</connection>
+		<developerConnection>scm:git:https://github.com/fernando-romulo-silva/easyvalueobject.git</developerConnection>
+		<tag>HEAD</tag>
+	</scm>
+
+	<properties>
+		<guava.version>17.0</guava.version>
+		<commons.io.version>2.4</commons.io.version>
+		<commons.lang3.version>3.3.1</commons.lang3.version>
+		<commons.collections.version>4.1</commons.collections.version>
+		<testng.version>7.3.0</testng.version>
+		<mockito.version>3.5.13</mockito.version>
+	</properties>
+
+
+	<dependencies>
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>${testng.version}</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-core</artifactId>
+			<version>${mockito.version}</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- SLF4J with Log4j : Log -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>${slf4j.version}</version>
+		</dependency>
+
+		<!-- Commons Lang3 : Framework utils para beans -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>${commons.lang3.version}</version>
+		</dependency>
+
+		<!-- Google Guava : Utils em geral -->
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>${guava.version}</version>
+		</dependency>
+
+		<!-- Commons Io: Operacoes com arquivos -->
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>${commons.io.version}</version>
+		</dependency>
+
+		<!-- Utils de Colecoes -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-collections4</artifactId>
+			<version>${commons.collections.version}</version>
+		</dependency>
+
+	</dependencies>
+
+</project>
