@@ -4,10 +4,7 @@ import static org.allsetconfigtest.TestingLevels.INTEGRATION;
 
 import javax.persistence.EntityManager;
 
-import org.easystructure.dao.jpa.ObjectDaoJpa;
-import org.easystructure.dao.jpa.util.JpaUtil;
 import org.easystructure.domain.valueobject.personal.Cpf;
-import org.myembedded.rdbms.MyEmbeddedRdbms;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
