@@ -9,7 +9,7 @@
 	<parent>
 		<groupId>org.allset.java</groupId>
 		<artifactId>allset-java</artifactId>
-		<version>1.0.0</version>
+		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
 	<modules>
@@ -18,22 +18,7 @@
 		<module>easyvalueobject-international</module>
 	</modules>
 
-	<licenses>
-		<license>
-			<name>The Apache Software License, Version 2.0</name>
-			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
-			<distribution>repo</distribution>
-		</license>
-	</licenses>
-
 	<url>https://github.com/fernando-romulo-silva/easyvalueobject</url>
-
-	<scm>
-		<url>https://github.com/fernando-romulo-silva/easyvalueobject</url>
-		<connection>scm:git:ssh://git@github.com/fernando-romulo-silva/easyvalueobject.git</connection>
-		<developerConnection>scm:git:ssh://git@github.com/fernando-romulo-silva/easyvalueobject.git</developerConnection>
-		<tag>HEAD</tag>
-	</scm>
 
 	<properties>
 		<guava.version>17.0</guava.version>
@@ -43,6 +28,7 @@
 		<testng.version>7.3.0</testng.version>
 		<mockito.version>3.5.13</mockito.version>
 		<slf4j.version>1.7.30</slf4j.version>
+		<assertj.version>3.24.2</assertj.version>
 	</properties>
 
 
@@ -67,7 +53,7 @@
 			<artifactId>assertj-core</artifactId>
 			<version>${assertj.version}</version>
 			<scope>test</scope>
-		</dependency>		
+		</dependency>
 
 		<!-- SLF4J with Log4j : Log -->
 		<dependency>

@@ -3,6 +3,11 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Project status](https://img.shields.io/badge/Project%20status-Maintenance-orange.svg)](https://img.shields.io/badge/Project%20status-Maintenance-orange.svg)
 
+# Project status
+
+I use this project to learn new technologies related to Java and frameworks like Apache utils, Guava, etc.
+I change this project constantly improving and adding new feature, click [here](docs/STATUS.md) to follow up.
+
 # About
 
 The purpose of this project is create a lib that implement the value object pattern of the commons attributes like email, barcodes, etc. The project is separate in modules: 
